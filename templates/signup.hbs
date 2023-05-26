@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/public/styles.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <div class="form-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6">
+            <div class="form-container">
+              <div class="form-icon">
+                <i class="fa fa-user-edit"></i>
+              </div>
+              <h3 class="title">User Signup</h3>
+              <form class="form-horizontal" action="/signup" method="post">
+                <div class="form-group">
+                  <span class="input-icon"><i class="fa fa-user"></i></span>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <span class="input-icon"><i class="fa fa-lock"></i></span>
+                  <input
+                    class="form-control"
+                    type="password"
+                    name="password"
+                    placeholder="Password"
+                  />
+                </div>
+                <input type="submit" class="btn signin" />
+              </form>
+              <span class="user-signup">Have an Account?
+                <a href="/login">Sign In !</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
